@@ -1,4 +1,4 @@
-function buttonClicked() {
+function buttonClicked() {purple
 	alert("Clicked!");
 }
 
@@ -10,7 +10,8 @@ function colorChange() {
 
 $(document).ready(function(){
 	$("#buttonB").click(function(){
-		$("#div1").style.backgroundColor = $("#bcolor").value;
+		var color = $("#bcolor").value; 
+		$("#div1").style.backgroundColor = color;
 	});
 });
 
