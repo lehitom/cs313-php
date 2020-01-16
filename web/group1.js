@@ -10,8 +10,7 @@ function colorChange() {
 
 $(document).ready(function(){
 	$("#buttonB").click(function(){
-		var color = $("#bcolor").value; 
-		$("#div1").style.backgroundColor = color;
+		$("#div1").css("background-color", $("#bcolor").value);
 	});
 });
 
