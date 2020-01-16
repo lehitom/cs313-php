@@ -9,7 +9,13 @@ function colorChange() {
 }
 
 $(document).ready(function(){
+	$("#buttonB").click(function(){
+		$("#div1").style.backgroundColor = $("#bcolor").value;
+	});
+});
+
+$(document).ready(function(){
 	$("#buttonA").click(function(){
-	$("#div3").fadeToggle()
+		$("#div3").fadeToggle()
 	});
 });
