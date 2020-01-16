@@ -1,1 +1,3 @@
-file in JS
+funtion buttonChange() {
+	document.getElementById("myButton").innerHTML = "Clicked!";
+}
