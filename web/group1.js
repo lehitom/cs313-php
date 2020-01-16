@@ -7,3 +7,9 @@ function colorChange() {
 	var color = document.getElementById("bcolor").value;
 	location.style.backgroundColor = color;
 }
+
+$(document).ready(function(){
+	$("#buttonA").click(function(){
+	$("#div3").fadeToggle()
+	});
+});
