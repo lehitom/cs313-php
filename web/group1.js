@@ -1,3 +1,3 @@
-funtion buttonAlert() {
+funtion clickMe() {
 	alert("Clicked!");
 }
