@@ -1,4 +1,4 @@
-function buttonClicked() {purple
+function buttonClicked() {
 	alert("Clicked!");
 }
 
