@@ -12,8 +12,8 @@
   <header>
     <div class="header-content">
       <div class="header-content-main">
-        <h1>Vern's RadioShack</h1>
-        <h2>in Idaho Falls, Idaho</h2>
+        <h1>Thomas Wood's Homepage</h1>
+        <h2>live from Blackfoot, ID</h2>
         <h3>1755 West Broadway, Idaho Falls, ID 83402</h3>
       </div>
     </div>
