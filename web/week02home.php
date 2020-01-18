@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Thomas Wood's Home Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="week02home.css" type="text/css">
   <meta name="description" content="Thomas Wood is an amazing student that looks forward to learning a lot in Web Engineering II.">
 </head>
 
