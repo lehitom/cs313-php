@@ -14,7 +14,7 @@
       <div class="header-content-main">
         <h1>Thomas Wood's Homepage</h1>
         <h2>Live from Blackfoot, ID</h2>
-        <h3>Page last loaded: 
+        <h3>Page last loaded on server time: 
 		<?php $time = time();
 		echo(date("F d, Y h:i:s A", $time));
 		?></h3>
@@ -23,10 +23,10 @@
   </header>
   
   <div class="navbar">
-    <a href="assign08.html">University</a>
-    <a href="assign08_1.html">Academics</a>
-    <a href="assign08_2.html">Athletics</a>
-    <a href="assign08_3.html">Arts</a>
+    <a href="links.html">Assignments</a>
+    <a href="links.html">Personal Project</a>
+    <a href="links.html">Group Project</a>
+    <a href="links.html">Contact Me</a>
   </div>
   
   <div class="row">
@@ -44,20 +44,19 @@
       <img src="inside_store.jpg" alt="Soft Opening">
     </div>
 	<div class="side">
-      <h2>Our Manager</h2>
-      <h5>Reese Clawson</h5>
-      <img src="Reese.jpg" alt="My face" width="250">
-      <p>Been serving since June of 1982</p>
-      <h3>A brief background</h3>
-      <p><b>Reese</b> was originally a manager for the coporate stores in the Southeastern Idaho Region back in 1982 when he began his relationship with RadioShack.</p><br>
-      <p>He is now the manager of the new Idaho Falls store on Broadway.</p><br>
-      <p>"I'm glad to be up here in my home town, where I can serve my friends and others." -Reese Clawson-</p><br>
+      <h2>About Me</h2>
+      <img src="https://github.com/lehitom/cs313-php/blob/master/IMG_20190107_101525.jpg" alt="My face" width="250">
+      <p>Been printing since May of 2018</p>
+      <h3>Why I started printing</h3>
+      <p><b>I</b> was a recently returned LDS missionary when I found out that my family had purchased a 3D printer.</p><br>
+      <p>I now print whenever I can find spare time.</p><br>
+      <p>“If other people are putting in 40 hour workweeks and you’re putting in 100 hour workweeks, then even if you’re doing the same thing … you will achieve in four months what it takes them a year to achieve.” -Elon Musk-</p><br>
     </div>
   </div>
 
   <footer>
     <div class="footer">
-      <h2>Vern's RadioShack - 208-529-8877 - shackpoky@gmail.com</h2>
+      <h2>CS 313 - Shawn Porter - Web Engineering II</h2>
     </div>
   </footer>
 
