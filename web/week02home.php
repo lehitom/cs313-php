@@ -32,23 +32,23 @@
   <div class="row">
     
     <div class="main">
-      <h2>Grand Opening</h2>
-      <h4>Our Grand Opening is in the beginning of April</h4>
-      <h4><b>Our hours are 9 AM to 6 PM, Monday through Saturday.</b></h4><h4>
-      </h4><h5>We are  here and ready to help the community, college student and tinkers alike.</h5>
-      <img src="grand_opening.jpg" alt="Grand Opening">
+      <h2>Calibration complete</h2>
+      <h4>My newer printer is back up and running after being moved to its new location!</h4>
+      <h4><b>I'll be up and priting soon again.</b></h4><h4>
+      </h4><h5>I love to print small little gadgets that people like to have.</h5>
+      <img src="https://assets.pcmag.com/media/images/504377-3d-printing-what-you-need-to-know.jpg" alt="Test prints">
     
-      <h2>We Are Open</h2>
-      <h4>We are and have been open since the 6th of March of 2019</h4>
-      <h5>We have plenty of RadioShack stock and a knowledgeable staff. We do repairs for iPhones and help with data recovery for computers.</h5>
-      <img src="inside_store.jpg" alt="Soft Opening">
+      <h2>Just purchased second printer</h2>
+      <h4>After a lot of contemplation, I have purchased a second printer from the same company!</h4>
+      <h5>These printers are from Zonestar in China, and while a pain to maintain, they are at a great price point.</h5>
+      <img src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
     </div>
 	<div class="side">
       <h2>About Me</h2>
       <img src="https://cdn.shop.prusa3d.com/1311-large_default/original-prusa-i3-mk3-3d-printer.jpg" alt="Prusa" width="250">
       <p>Been printing since May of 2018</p>
       <h3>Why I started printing</h3>
-      <p><b>I</b> was a recently returned LDS missionary when I found out that my family had purchased a 3D printer.</p><br>
+      <p>I was a recently returned LDS missionary when I found out that my family had purchased a 3D printer.</p><br>
       <p>I now print whenever I can find spare time.</p><br>
       <p>“If other people are putting in 40 hour workweeks and you’re putting in 100 hour workweeks, then even if you’re doing the same thing … you will achieve in four months what it takes them a year to achieve.” -Elon Musk-</p><br>
     </div>
