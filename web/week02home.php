@@ -45,7 +45,7 @@
     </div>
 	<div class="side">
       <h2>About Me</h2>
-      <img src="https://webmailbyui-my.sharepoint.com/:i:/g/personal/lehitom_byui_edu/EfVqqVoA-KJOnWgNtSeoqvEBkDRJpyer-vcp9zCDjklSgQ?e=OFMhli" alt="My face" width="250">
+      <img src="https://cdn.shop.prusa3d.com/1311-large_default/original-prusa-i3-mk3-3d-printer.jpg" alt="Prusa" width="250">
       <p>Been printing since May of 2018</p>
       <h3>Why I started printing</h3>
       <p><b>I</b> was a recently returned LDS missionary when I found out that my family had purchased a 3D printer.</p><br>
