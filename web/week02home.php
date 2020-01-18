@@ -45,7 +45,7 @@
     </div>
 	<div class="side">
       <h2>About Me</h2>
-      <img src="https://github.com/lehitom/cs313-php/blob/master/IMG_20190107_101525.jpg" alt="My face" width="250">
+      <img src="https://photos.app.goo.gl/vwJNzqDHrkNPU2dG8" alt="My face" width="250">
       <p>Been printing since May of 2018</p>
       <h3>Why I started printing</h3>
       <p><b>I</b> was a recently returned LDS missionary when I found out that my family had purchased a 3D printer.</p><br>
