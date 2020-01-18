@@ -13,8 +13,11 @@
     <div class="header-content">
       <div class="header-content-main">
         <h1>Thomas Wood's Homepage</h1>
-        <h2>live from Blackfoot, ID</h2>
-        <h3>1755 West Broadway, Idaho Falls, ID 83402</h3>
+        <h2>Live from Blackfoot, ID</h2>
+        <h3>Page last loaded: 
+		<?php $time = time();
+		echo(date("F d, Y h:i:s A", $time));
+		?></h3>
       </div>
     </div>
   </header>
