@@ -34,8 +34,8 @@
     <div class="main">
       <h2>Calibration complete</h2>
       <h4>My newer printer is back up and running after being moved to its new location!</h4>
-      <h4><b>I'll be up and priting soon again.</b></h4><h4>
-      </h4><h5>I love to print small little gadgets that people like to have.</h5>
+      <h4><b>I'll be up and priting soon again.</b></h4>
+      <h5>I love to print small little gadgets that people like to have.</h5>
       <img src="https://assets.pcmag.com/media/images/504377-3d-printing-what-you-need-to-know.jpg" alt="Test prints">
     
       <h2>Just purchased second printer</h2>
