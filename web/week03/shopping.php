@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Thomas Wood's 3D Printing shopping cart</title>
+  <title>Thomas Wood's 3D Printing Shopping Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="main.css" type="text/css">
   <meta name="description" content="Thomas Wood is an amazing student that looks forward to learning a lot in Web Engineering II.">
@@ -12,7 +12,7 @@
   <header>
     <div class="header-content">
       <div class="header-content-main">
-        <h1>Thomas Wood's 3D Printing Shopping Cart</h1>
+        <h1>Thomas Wood's 3D Printing Shopping Site</h1>
         <h2>Shipped from Blackfoot, ID</h2>
         <h3>Page last refreshed: 
 		<?php $today = date("D M j G:i:s T Y");
@@ -44,7 +44,7 @@
         <h2>Just purchased second printer</h2>
         <h4>After a lot of contemplation, I have purchased a second printer from the same company!</h4>
         <h5>These printers are from Zonestar in China, and while a pain to maintain, they are at a great price point.</h5>
-        <a href="https://www.thingiverse.com/thing:1958078"><img src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
+        <a href="https://www.thingiverse.com/thing:1958078"><img border="0" src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
 	  </div>
 	</div>
 	
