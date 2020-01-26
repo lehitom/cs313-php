@@ -15,7 +15,7 @@
         <h1>Thomas Wood's Homepage</h1>
         <h2>Live from Blackfoot, ID</h2>
         <h3>Page last loaded on server time: 
-		<?php $time = time();
+		<?php $time = localtime();
 		echo(date("F d, Y h:i:s A", $time));
 		?></h3>
       </div>
