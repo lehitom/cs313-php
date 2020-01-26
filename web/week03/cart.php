@@ -17,7 +17,7 @@
         <h3>Page last loaded on server time: 
 		<?php $time = time();
 				$today = date("D M j G:i:s T Y");
-		echo(DateTime("F d, Y h:i:s A", $today));
+		echo($today);
 		?></h3>
       </div>
     </div>
