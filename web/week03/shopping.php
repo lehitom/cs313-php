@@ -37,7 +37,6 @@
 		<h2>Companion Cube</h2>
 		<h4>Simple white campanion cube from Portal</h4>
 		<h4><b>$15.00 per print</b></h4>
-		<h5>Find more details <here
 		<a href="https://www.thingiverse.com/thing:1958078"><img src="https://cdn.thingiverse.com/renders/2a/4d/ba/82/f0/ff4d9119179c175c6d02f33a9c9de4d0_preview_featured.jpg" alt="Companion Cube"></a>
       </div>
 	
