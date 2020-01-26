@@ -34,11 +34,10 @@
     
     <div class="main">
 	  <div class="item">
-		<h2>Calibration complete</h2>
-		<h4>My newer printer is back up and running after being moved to its new location!</h4>
-		<h4><b>I'll be up and priting soon again.</b></h4>
-		<h5>I love to print small little gadgets that people like to have.</h5>
-		<img src="https://assets.pcmag.com/media/images/504377-3d-printing-what-you-need-to-know.jpg" alt="Test prints">
+		<h2>Companion Cube</h2>
+		<h4>Simple white campanion cube from Portal</h4>
+		<h4><b>$15.00 per print</b></h4>
+		<img src="https://cdn.thingiverse.com/renders/2a/4d/ba/82/f0/ff4d9119179c175c6d02f33a9c9de4d0_preview_featured.jpg" alt="Companion Cube">
       </div>
 	
 	  <div class="item">
