@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Thomas Wood's Home Page</title>
+  <title>Thomas Wood's 3D Printing shopping cart</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="main.css" type="text/css">
   <meta name="description" content="Thomas Wood is an amazing student that looks forward to learning a lot in Web Engineering II.">
@@ -12,11 +12,10 @@
   <header>
     <div class="header-content">
       <div class="header-content-main">
-        <h1>Thomas Wood's Homepage</h1>
-        <h2>Live from Blackfoot, ID</h2>
-        <h3>Page last loaded on server time: 
-		<?php $time = time();
-				$today = date("D M j G:i:s T Y");
+        <h1>Thomas Wood's 3D Printing Shopping Cart</h1>
+        <h2>Shipped from Blackfoot, ID</h2>
+        <h3>Page last refreshed: 
+		<?php $today = date("D M j G:i:s T Y");
 		echo($today);
 		?></h3>
       </div>
@@ -24,10 +23,10 @@
   </header>
   
   <div class="navbar">
+    <a href="links.html">Shopping</a>
+    <a href="links.html">Checkout</a>
+    <a href="links.html">Contact Us</a>
     <a href="links.html">Assignments</a>
-    <a href="links.html">Personal Project</a>
-    <a href="links.html">Group Project</a>
-    <a href="links.html">Contact Me</a>
   </div>
   
   <div class="row">
@@ -45,13 +44,13 @@
       <img src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
     </div>
 	<div class="side">
-      <h2>About Me</h2>
+      <h2>About Us</h2>
       <img src="https://cdn.shop.prusa3d.com/1311-large_default/original-prusa-i3-mk3-3d-printer.jpg" alt="Prusa" width="250">
       <p>Been printing since May of 2018</p>
-      <h3>Why I started printing</h3>
-      <p>I was a recently returned LDS missionary when I found out that my family had purchased a 3D printer.</p><br>
-      <p>I now print whenever I can find spare time.</p><br>
-      <p>“If other people are putting in 40 hour workweeks and you’re putting in 100 hour workweeks, then even if you’re doing the same thing … you will achieve in four months what it takes them a year to achieve.” -Elon Musk-</p><br>
+      <h3>Why Order From Me</h3>
+      <p>All prints listed on this site have been well tested and can be manufactured within 3 days</p><br>
+      <p>They are durable and can be printed in different colors (coming soon)</p><br>
+      <p>It's local and you don't have to wait for it to come from china!</p><br>
     </div>
   </div>
 
