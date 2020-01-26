@@ -44,7 +44,7 @@
         <h2>Just purchased second printer</h2>
         <h4>After a lot of contemplation, I have purchased a second printer from the same company!</h4>
         <h5>These printers are from Zonestar in China, and while a pain to maintain, they are at a great price point.</h5>
-        <img src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
+        <a href="https://www.thingiverse.com/thing:1958078"><img src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
 	  </div>
 	</div>
 	
