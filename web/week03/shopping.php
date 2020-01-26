@@ -37,14 +37,15 @@
 		<h2>Companion Cube</h2>
 		<h4>Simple white campanion cube from Portal</h4>
 		<h4><b>$15.00 per print</b></h4>
-		<img src="https://cdn.thingiverse.com/renders/2a/4d/ba/82/f0/ff4d9119179c175c6d02f33a9c9de4d0_preview_featured.jpg" alt="Companion Cube">
+		<h5>Find more details <here
+		<a href="https://www.thingiverse.com/thing:1958078"><img src="https://cdn.thingiverse.com/renders/2a/4d/ba/82/f0/ff4d9119179c175c6d02f33a9c9de4d0_preview_featured.jpg" alt="Companion Cube"></a>
       </div>
 	
 	  <div class="item">
         <h2>Just purchased second printer</h2>
         <h4>After a lot of contemplation, I have purchased a second printer from the same company!</h4>
         <h5>These printers are from Zonestar in China, and while a pain to maintain, they are at a great price point.</h5>
-        <img border="0" a href="https://www.thingiverse.com/thing:1958078" src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
+        <img src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
 	  </div>
 	</div>
 	
