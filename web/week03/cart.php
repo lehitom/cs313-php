@@ -32,17 +32,22 @@
   <div class="row">
     
     <div class="main">
-      <h2>Calibration complete</h2>
-      <h4>My newer printer is back up and running after being moved to its new location!</h4>
-      <h4><b>I'll be up and priting soon again.</b></h4>
-      <h5>I love to print small little gadgets that people like to have.</h5>
-      <img src="https://assets.pcmag.com/media/images/504377-3d-printing-what-you-need-to-know.jpg" alt="Test prints">
-    
-      <h2>Just purchased second printer</h2>
-      <h4>After a lot of contemplation, I have purchased a second printer from the same company!</h4>
-      <h5>These printers are from Zonestar in China, and while a pain to maintain, they are at a great price point.</h5>
-      <img src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
-    </div>
+	  <div class="item">
+		<h2>Calibration complete</h2>
+		<h4>My newer printer is back up and running after being moved to its new location!</h4>
+		<h4><b>I'll be up and priting soon again.</b></h4>
+		<h5>I love to print small little gadgets that people like to have.</h5>
+		<img src="https://assets.pcmag.com/media/images/504377-3d-printing-what-you-need-to-know.jpg" alt="Test prints">
+      </div>
+	
+	  <div class="item">
+        <h2>Just purchased second printer</h2>
+        <h4>After a lot of contemplation, I have purchased a second printer from the same company!</h4>
+        <h5>These printers are from Zonestar in China, and while a pain to maintain, they are at a great price point.</h5>
+        <img src="https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/DD/03/fa5348cd-9f5c-4136-8faa-97de6be06c5e.jpg" alt="ZoneStar printer">
+	  </div>
+	</div>
+	
 	<div class="side">
       <h2>About Us</h2>
       <img src="https://cdn.shop.prusa3d.com/1311-large_default/original-prusa-i3-mk3-3d-printer.jpg" alt="Prusa" width="250">
