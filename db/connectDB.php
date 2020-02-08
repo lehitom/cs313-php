@@ -7,7 +7,9 @@ function get_db()
 
    if (empty($dbUrl)) {
       // example localhost configuration URL with postgres username and a database called cs313db
-      $dbUrl = "postgres://postgres:password@localhost:5432/teach05";
+      echo '<script language="text/javascript">';
+	  echo 'alert("Database failed to load")';
+      echo '</script>';
    }
 
    $dbopts = parse_url($dbUrl);
