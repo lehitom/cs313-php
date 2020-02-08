@@ -3,8 +3,8 @@
 require("connectDB.php");
 $db = get_db();
 
-$notes = $db->prepare("SELECT note_id, note_fill, print_id FROM notes");
-$notes->execute();
+$scriptures = $db->prepare("SELECT id, book, chapter, verse, content FROM scriptures");
+$scriptures->execute();
 
 ?>
 
@@ -14,18 +14,20 @@ $notes->execute();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>All notes</title>
+  <title>Scripture Resources</title>
 </head>
 <body>
-<h1>All notes</h1>
+<h1>Scripture Resources</h1>
   <table>
     <?php
-      foreach( $notes as $note ) {
-        $note_id = $note['note_id'];
-        $note_fill = $note['note_fill'];
-        $print_id = $note['print_id'];
+      foreach( $scriptures as $scripture ) {
+        $scripture_id = $scripture['id'];
+        $book = $scripture['book'];
+        $chapter = $scripture['chapter'];
+        $verse = $scripture['verse'];
+        $content = $scripture['content'];
         ?>
-        <p><a href="note_info.php?id=<?php echo $note_id; ?>"><?php echo $note_id . '\"' . $note_fill . '\" <b> performed by printer: </b>' . $print_id; ?></a></p>
+        <p><a href="scripture_details.php?id=<?php echo $scripture_id; ?>"><?php echo $book . ' ' . $chapter . ':' . $verse; ?></a></p>
         <?php
       }
     ?>
@@ -33,20 +35,11 @@ $notes->execute();
 
   <hr>
   
-  <h2>Note Search</h2>
+  <h2>Scripture Search</h2>
   
-  <form action="search1.php" method="POST">
-    <label for="search">Search By Note ID</label>
-    <input type="text" name="search" placeholder="NULL">
-
-    <button type="submit">Search</button>
-  </form>
-  
-  <h2>Print Search</h2>
-  
-  <form action="search2.php" method="POST">
-    <label for="search">Search By Print ID</label>
-    <input type="text" name="search" placeholder="NULL">
+  <form action="search.php" method="POST">
+    <label for="search">Search By Book</label>
+    <input type="text" name="search" placeholder="John">
 
     <button type="submit">Search</button>
   </form>
