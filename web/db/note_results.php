@@ -2,7 +2,7 @@
 require ('connectDB.php');
 $db = get_db();
 
-$id = $_GET["note_id"];
+$id = $_GET["id"];
 
 $search_statement = $db->prepare('SELECT * FROM notes WHERE note_id=:note_id');
 $search_statement->bindValue(':note_id', $note_id, PDO::PARAM_STR);
