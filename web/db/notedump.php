@@ -3,7 +3,7 @@
 require("connectDB.php");
 $db = get_db();
 
-$notes = $db->prepare("SELECT note_id, note_fill, print_id FROM notes");
+$notes = $db->prepare("SELECT note_id, note_fill, print_id FROM notes order by NOTE_ID desc");
 $notes->execute();
 
 ?>
