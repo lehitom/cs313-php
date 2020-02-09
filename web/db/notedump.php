@@ -17,6 +17,17 @@ $notes->execute();
   <title>All notes</title>
 </head>
 <body>
+<h2>Note Search</h2>
+  
+  <form action="note_lookup.php" method="POST">
+    <label for="search">Search By Note ID</label>
+    <input type="text" name="search" placeholder="NULL">
+
+    <button type="submit">Search</button>
+  </form>
+
+  <hr>
+  
 <h1>All notes</h1>
   <table>
     <?php
@@ -25,23 +36,10 @@ $notes->execute();
         $note_fill = $note['note_fill'];
         $print_id = $note['print_id'];
         ?>
-        <p><a href="note_results.php?id=<?php echo $note_id; ?>"><?php echo "Note: " . $note_id . ' "' . $note_fill . '"<b> for by print: </b>' . $print_id; ?></a></p>
+        <p><a href="note_results.php?id=<?php echo $note_id; ?>"><?php echo "Note: " . $note_id . ' "' . $note_fill . '"<b> for print: </b>' . $print_id; ?></a></p>
         <?php
       }
     ?>
   </table>
-
-  <hr>
-  
-  <h2>Note Search</h2>
-  
-  <form action="note_lookup.php" method="POST">
-    <label for="search">Search By Note ID</label>
-    <input type="text" name="search" placeholder="NULL">
-
-    <button type="submit">Search</button>
-  </form>
-  
-  <h2>Print Search</h2>
 
 </body>
