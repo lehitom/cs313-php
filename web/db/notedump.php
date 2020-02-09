@@ -31,7 +31,7 @@ $notes->execute();
 <h1>All notes</h1>
   <table>
     <?php
-      foreach( array_reverse($notes) as $note ) {
+      foreach( $notes as $note ) {
         $note_id = $note['note_id'];
         $note_fill = $note['note_fill'];
         $print_id = $note['print_id'];
