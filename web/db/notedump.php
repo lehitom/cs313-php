@@ -43,12 +43,5 @@ $notes->execute();
   </form>
   
   <h2>Print Search</h2>
-  
-  <form action="search2.php" method="POST">
-    <label for="search">Search By Print ID</label>
-    <input type="text" name="search" placeholder="NULL">
-
-    <button type="submit">Search</button>
-  </form>
 
 </body>
