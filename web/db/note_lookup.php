@@ -19,7 +19,7 @@ $rows = $search_statement->fetchAll(PDO::FETCH_ASSOC);
     <title>Note Details</title>
 </head>
 <body>
-  <h1>Note Details</h1>
+  <h1>Note Search Results</h1>
   
   <?php 
   if ($rows) {
@@ -28,7 +28,7 @@ $rows = $search_statement->fetchAll(PDO::FETCH_ASSOC);
       $note_fill = $search_result['note_fill'];
       $print_id = $search_result['print_id'];
   ?>
-    <a href="note_results.php?id=<?php echo $note_id; ?>"><?php echo $note_id . ' "' . $note_fill . '" by printer ID: ' . $print_id; ?></a><br>
+    <a href="note_results.php?id=<?php echo $note_id; ?>"><?php echo 'Note: ' . $note_id . ' by printer ID: ' . $print_id; ?></a><br>
   <?php 
     }
   } else {
