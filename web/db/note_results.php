@@ -4,7 +4,7 @@ $db = get_db();
 
 $id = $_GET["id"];
 
-$search_statement = $db->prepare('SELECT * FROM notes WHERE note_id=:note_id');
+$search_statement = $db->prepare('SELECT * FROM notes WHERE id=:note_id');
 $search_statement->bindValue(':note_id', $note_id, PDO::PARAM_STR);
 $search_statement->execute();
 $row = $search_statement->fetch(PDO::FETCH_ASSOC);
