@@ -14,7 +14,7 @@ function getTitle($row) {
     $note_id = $row['note_id'];
     $note_fill = $row['note_fill'];
     $print_id = $row['print_id'];
-    return "$id by printer $print_id";
+    return "$note_id by printer $print_id";
 }
 
 $header = getTitle($row);
@@ -26,10 +26,10 @@ $header = getTitle($row);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?= $title; ?></title>
+    <title><?= $header; ?></title>
 </head>
 <body>
-    <h1><?= $title; ?></h1>
+    <h1><?= $header; ?></h1>
     <p><?= $content; ?></p>
 </body>
 </html>
