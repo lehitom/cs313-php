@@ -14,7 +14,7 @@ function getTitle($row) {
     $note_id = $row['note_id'];
     $note_fill = $row['note_fill'];
     $print_id = $row['print_id'];
-    return "Note: $note_id by Printer: $print_id";
+    return "Note: $note_id for Print: $print_id";
 }
 
 $header = getTitle($row);

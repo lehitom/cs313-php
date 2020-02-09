@@ -25,7 +25,7 @@ $notes->execute();
         $note_fill = $note['note_fill'];
         $print_id = $note['print_id'];
         ?>
-        <p><a href="note_info.php?id=<?php echo $note_id; ?>"><?php echo "Note: " . $note_id . ' "' . $note_fill . '"<b> performed by printer: </b>' . $print_id; ?></a></p>
+        <p><a href="note_results.php?id=<?php echo $note_id; ?>"><?php echo "Note: " . $note_id . ' "' . $note_fill . '"<b> for by print: </b>' . $print_id; ?></a></p>
         <?php
       }
     ?>
