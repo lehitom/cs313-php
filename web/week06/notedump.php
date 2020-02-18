@@ -1,50 +1,33 @@
 <?php
 
-require("dbConnect.php");
+require("connectDB.php");
 $db = get_db();
 
 $notes = $db->prepare("SELECT note_id, note_fill, print_id FROM notes order by NOTE_ID desc");
 $notes->execute();
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Add Additional Notes</title>
+  <title>All notes</title>
 </head>
 <body>
+<h2>Note Search</h2>
+  
+  <form action="note_lookup.php" method="POST">
+    <label for="search">Search By Note ID</label>
+    <input type="text" name="search" placeholder="NULL">
 
-<h1>New note entry</h1>
-<form id="mainForm" action="insertNote.php" method="POST">
+    <button type="submit">Search</button>
+  </form>
 
-	<input type="text" id="txtBook" name="txtBook"></input>
-	<label for="txtBooK">Book</label>
-	<br /><br />
-
-	<input type="text" id="txtChapter" name="txtChapter"></input>
-	<label for="txtChapter">Chapter</label>
-	<br /><br />
-
-	<input type="text" id="txtVerse" name="txtVerse"></input>
-	<label for="txtVerse">Verse</label>
-	<br /><br />
-
-	<label for="txtContent">Content:</label><br />
-	<textarea id="txtContent" name="txtContent" rows="4" cols="50"></textarea>
-	<br /><br />
-
-	
-<input type="submit" value="Add to Database" />
-
-</form>
-
-
-</div>
-
-
+  <hr>
+  
 <h1>All notes</h1>
   <table>
     <?php
@@ -58,5 +41,5 @@ $notes->execute();
       }
     ?>
   </table>
-  
+
 </body>
