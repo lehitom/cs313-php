@@ -20,12 +20,12 @@ $notes->execute();
 <h1>New note entry</h1>
 <form id="mainForm" action="insertNote.php" method="POST">
 
-	<input type="number" id="txtNoteId" name="txtId"></input>
-	<label for="txtId">Note ID</label>
+	<input type="number" id="txtNoteId" name="txtNoteId"></input>
+	<label for="txtNoteId">Note ID</label>
 	<br /><br />
 
-	<input type="number" id="txtPrintId" name="txtVerse"></input>
-	<label for="txtVerse">Print ID</label>
+	<input type="number" id="txtPrintId" name="txtPrintId"></input>
+	<label for="txtPrintId">Print ID</label>
 	<br /><br />
 	
 	<label for="txtContent">Content:</label><br />
