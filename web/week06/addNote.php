@@ -16,6 +16,8 @@ $notes->execute();
   <title>Add Additional Notes</title>
 </head>
 <body>
+
+<h1>New note entry</h1>
 <form id="mainForm" action="insertTopic.php" method="POST">
 
 	<input type="text" id="txtBook" name="txtBook"></input>
