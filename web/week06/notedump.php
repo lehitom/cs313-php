@@ -1,6 +1,6 @@
 <?php
 
-require("connectDB.php");
+require("dbConnect.php");
 $db = get_db();
 
 $notes = $db->prepare("SELECT note_id, note_fill, print_id FROM notes order by NOTE_ID desc");
