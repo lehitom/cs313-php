@@ -13,12 +13,34 @@ $notes->execute();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>All notes</title>
+  <title>Add Additional Notes</title>
 </head>
 <body>
+<form id="mainForm" action="insertTopic.php" method="POST">
+
+	<input type="text" id="txtBook" name="txtBook"></input>
+	<label for="txtBooK">Book</label>
+	<br /><br />
+
+	<input type="text" id="txtChapter" name="txtChapter"></input>
+	<label for="txtChapter">Chapter</label>
+	<br /><br />
+
+	<input type="text" id="txtVerse" name="txtVerse"></input>
+	<label for="txtVerse">Verse</label>
+	<br /><br />
+
+	<label for="txtContent">Content:</label><br />
+	<textarea id="txtContent" name="txtContent" rows="4" cols="50"></textarea>
+	<br /><br />
+
+	
+<input type="submit" value="Add to Database" />
+
+</form>
 
 
-
+</div>
 
 
 <h1>All notes</h1>
