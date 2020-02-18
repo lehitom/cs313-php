@@ -24,14 +24,13 @@ $notes->execute();
 	<label for="txtId">Note ID</label>
 	<br /><br />
 
-	<label for="txtContent">Content:</label><br />
-	<textarea id="txtContent" name="txtContent" rows="4" cols="50"></textarea>
-	<br /><br />
-
 	<input type="number" id="txtPrintId" name="txtVerse"></input>
 	<label for="txtVerse">Print ID</label>
 	<br /><br />
-
+	
+	<label for="txtContent">Content:</label><br />
+	<textarea id="txtContent" name="txtContent" rows="4" cols="50"></textarea>
+	<br /><br />
 	
 <input type="submit" value="Add to Database" />
 
