@@ -26,7 +26,7 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #639fff;
+    color: #000;
     display: inline;
     
  }
@@ -50,7 +50,7 @@ header {
 
 .navbar {
   display: flex;
-  background-color: #B64F3A;
+  background-color: #639fff;
   justify-content: center;
 }
 
