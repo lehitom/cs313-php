@@ -44,7 +44,7 @@ $notes->execute();
   <div class="row">
     
     <div class="main">
-      <h2>Past 10 most recent notes</h2>
+      <h2>10 most recent notes</h2>
         <table>
           <?php
             foreach( $notes as $note ) {
@@ -52,11 +52,13 @@ $notes->execute();
               $note_fill = $note['note_fill'];
               $print_id = $note['print_id'];
           ?>
-        <p><?php echo "Note: " . $note_id . ' "' . $note_fill . '"<b> for print: </b>' . $print_id; ?></p>
+        <p><?php echo "<b>" . $note_id . '</b> "' . $note_fill . '"<b> regarding: </b>' . $print_id; ?></p>
         <?php
       }
     ?>
-  </table>
+        </table>
+	</div>
+  </div>
 
 </body>
 </html>
