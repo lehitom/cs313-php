@@ -62,19 +62,11 @@ $prints->execute();
 	</div>
 	
     <div class="side">
-      <h2>10 most recent notes</h2>
-        <table>
-		  <?php
-            foreach( $notes as $note ) {
-              $note_id = $note['note_id'];
-              $note_fill = $note['note_fill'];
-              $print_id = $note['print_id'];
-          ?>
-        <p><?php echo "<b>" . $note_id . '</b> "' . $note_fill . '"<b> regarding: </b>' . $print_id; ?></p>
-        <?php
-      }
-    ?>
-        </table>
+      <h2>Order of additions from fresh start</h2><br>
+      <h4>1. Filament</h4><br>
+	  <h4>2. Printer</h4><br>
+	  <h4>3. Print</h4><br>
+	  <h4>4. Note</h4><br>
 	</div>
   </div>
 
