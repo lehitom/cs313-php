@@ -38,7 +38,7 @@ $prints->execute();
   </header>
 
   <div class="navbar">
-    <a href="links.html">Homepage</a>
+    <a href="index.php">Homepage</a>
     <a href="links.html">Additions</a>
 	<a href="logout.php"><b>LOGOUT</b></a>
   </div>
