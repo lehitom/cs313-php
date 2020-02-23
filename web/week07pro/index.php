@@ -40,7 +40,6 @@ $prints->execute();
   <div class="navbar">
     <a href="links.html">Homepage</a>
     <a href="links.html">Additions</a>
-    <a href="links.html">Newest Additions</a>
 	<a href="logout.php"><b>LOGOUT</b></a>
   </div>
 
@@ -53,7 +52,7 @@ $prints->execute();
             foreach( $prints as $print ) {
               $print_id = $print['print_id'];
               $print_name = $print['print_name'];
-              $filament_amount = $note['filament_amount'];
+              $filament_amount = $print['filament_amount'];
           ?>
         <p><?php echo "<b>" . $print_id . '</b> "' . $print_name . '"<b> consumed: </b>' . $filament_amount . 'g.'; ?></p>
         <?php
