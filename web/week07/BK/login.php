@@ -4,7 +4,7 @@ if(isset($_GET['answer']))
     $answer = $_GET['answer'];
     if($answer == -1)
     {
-        echo '<script>alert("incorrect username/password");</script>';
+        echo '<script>alert("User or password is not correct");</script>';
     }
 }
 ?>
@@ -21,7 +21,7 @@ if(isset($_GET['answer']))
     <input type="text" name="user"><br>
     Password:<br>
     <input type="password" name="password"><br>
-    <a href="singup.php">¿Don't have an account? <b>Sign up here!</b></a><br>
+    <a href="singup.php">Don't have an account? <b>Sign up here!</b></a><br>
     <input type="submit" value="LOGIN">
 </form>
 </body>

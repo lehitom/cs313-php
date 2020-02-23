@@ -16,7 +16,7 @@ else
     <title></title>
 </head>
 <body>
-<h1>Welcome <?php echo $username; ?><h1>
+<h1>Welcome dear new user!<h1>
 <h3><a href="logout.php">LOGOUT</a><h3>
 </body>
 </html>
