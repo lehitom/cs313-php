@@ -67,7 +67,7 @@ $filaments->execute();
 		<br /><br />
 		
 		<input type="text" id="txt_filament_color" name="txt_filament_color"></input>
-		<label for="txt_filament_color">Print ID</label>
+		<label for="txt_filament_color">Filament Color</label>
 		<br /><br />
 		
 		<input type="submit" value="Add to Database" />
