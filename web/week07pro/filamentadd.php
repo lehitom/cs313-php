@@ -89,7 +89,8 @@ $filaments->execute();
 			  $filament_color = $filament['filament_color'];
           ?>
         <p><?php echo '<b>' . $filament_id . '</b> ' . $filament_vendor . ', $' . $filament_cost . ' for ' . $filament_size . ' grams '; ?></p>
-		<p><?php echo '<b>"' . $filament_name . '"</b> has a diameter of ' . $filament_diameter . ' and is <b>' . $filament_color; ?></p>
+		<p><?php echo '<b>"' . $filament_name . '"</b> has a diameter of ' . $filament_diameter . ' and is <b>' . $filament_color . '</b>'; ?></p>
+		<p>-------------------------</p>
         <?php
       }
     ?>
