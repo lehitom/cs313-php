@@ -14,6 +14,9 @@ $db = get_db();
 
 $notes = $db->prepare("SELECT note_id, note_fill, print_id FROM notes order by NOTE_ID desc LIMIT 10");
 $notes->execute();
+
+$prints = $db->prepare("SELECT print_id, print_name, filament_amount FROM prints order by print_id desc LIMIT 10");
+$prints->execute();
 ?>
 <!DOCTYPE html>
 <html>
@@ -44,15 +47,15 @@ $notes->execute();
   <div class="row">
     
 	<div class="main">
-      <h2>10 most recent notes</h2>
+      <h2>10 most recent prints</h2>
         <table>
           <?php
-            foreach( $notes as $note ) {
-              $note_id = $note['note_id'];
-              $note_fill = $note['note_fill'];
-              $print_id = $note['print_id'];
+            foreach( $prints as $print ) {
+              $print_id = $print['print_id'];
+              $print_name = $print['print_name'];
+              $filament_amount = $note['filament_amount'];
           ?>
-        <p><?php echo "<b>" . $note_id . '</b> "' . $note_fill . '"<b> regarding: </b>' . $print_id; ?></p>
+        <p><?php echo "<b>" . $print_id . '</b> "' . $print_name . '"<b> consumed: </b>' . $filament_amount . 'g.'; ?></p>
         <?php
       }
     ?>
@@ -62,7 +65,7 @@ $notes->execute();
     <div class="side">
       <h2>10 most recent notes</h2>
         <table>
-          <?php
+		  <?php
             foreach( $notes as $note ) {
               $note_id = $note['note_id'];
               $note_fill = $note['note_fill'];
