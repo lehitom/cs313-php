@@ -1,27 +1,25 @@
 <?php
 
 // get the data from the POST
-$filament_name = $_POST['txt_filament_name'];
-$filament_cost = $_POST['txt_filament_cost'];
-$filament_size = $_POST['txt_filament_size'];
-$filament_diameter = $_POST['txt_filament_diameter'];
-$filament_vendor = $_POST['txt_filament_vendor'];
-$filament_color = $_POST['txt_filament_color'];
+$print_name = $_POST['txt_print_name'];
+$filament_amount = $_POST['txt_filament_amount'];
+$stl_file_name = $_POST['txt_stl_file_name'];
+$printer_id = $_POST['txt_printer_id'];
+$filament_id = $_POST['txt_filament_id'];
 
 require("connectDB.php");
 $db = get_db();
 
 try
 {
-	$query = 'INSERT INTO filaments(filament_name, filament_cost, filament_size, filament_diameter, filament_vendor, filament_color) VALUES(:filament_name, :filament_cost, :filament_size, :filament_diameter, :filament_vendor, :filament_color)';
+	$query = 'INSERT INTO prints(print_name, filament_amount, stl_file_name, printer_id, filament_id) VALUES(:print_name, :filament_amount, :stl_file_name, :printer_id, :filament_id)';
 	$statement = $db->prepare($query);
 
-	$statement->bindValue(':filament_name', $filament_name);
-	$statement->bindValue(':filament_cost', $filament_cost);
-	$statement->bindValue(':filament_size', $filament_size);
-	$statement->bindValue(':filament_diameter', $filament_diameter);
-	$statement->bindValue(':filament_vendor', $filament_vendor);
-	$statement->bindValue(':filament_color', $filament_color);
+	$statement->bindValue(':print_name', $print_name);
+	$statement->bindValue(':filament_amount', $filament_amount);
+	$statement->bindValue(':stl_file_name', $stl_file_name);
+	$statement->bindValue(':printer_id', $printer_id);
+	$statement->bindValue(':filament_id', $filament_id);
 
 	$statement->execute();
 

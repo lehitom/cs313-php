@@ -45,32 +45,34 @@ $filaments->execute();
 
   <div class="row">
 
+  $print_name = $_POST['txt_print_name'];
+$filament_amount = $_POST['txt_filament_amount'];
+$stl_file_name = $_POST['txt_stl_file_name'];
+$printer_id = $_POST['txt_printer_id'];
+$filament_id = $_POST['txt_filament_id'];
+  
 	<div class="main">
       <h1>New filament entry</h1>
 		<form id="mainForm" action="printinsert.php" method="POST">
 
-		<input type="text" id="txt_filament_name" name="txt_filament_name"></input>
-		<label for="txt_filament_name">Filament Name</label>
+		<input type="text" id="txt_print_name" name="txt_print_name"></input>
+		<label for="txt_print_name">Print Name</label>
 		<br /><br />
 
-		<input type="text" id="txt_filament_cost" name="txt_filament_cost"></input>
-		<label for="txt_filament_cost">Filament Cost</label>
+		<input type="text" id="txt_filament_amount" name="txt_filament_amount"></input>
+		<label for="txt_filament_amount">Filament Amount</label>
 		<br /><br />
 		
-		<input type="text" id="txt_filament_size" name="txt_filament_size"></input>
-		<label for="txt_filament_size">Filament Length</label>
+		<input type="text" id="txt_stl_file_name" name="txt_stl_file_name"></input>
+		<label for="txt_stl_file_name">STL File Name</label>
 		<br /><br />
 		
-		<input type="text" id="txt_filament_diameter" name="txt_filament_diameter"></input>
-		<label for="txt_filament_diameter">Filament Diameter</label>
+		<input type="text" id="txt_printer_id" name="txt_printer_id"></input>
+		<label for="txt_printer_id">Printer ID</label>
 		<br /><br />
 		
-		<input type="text" id="txt_filament_vendor" name="txt_filament_vendor"></input>
-		<label for="txt_filament_vendor">Filament Vendor</label>
-		<br /><br />
-		
-		<input type="text" id="txt_filament_color" name="txt_filament_color"></input>
-		<label for="txt_filament_color">Filament Color</label>
+		<input type="text" id="txt_filament_id" name="txt_filament_id"></input>
+		<label for="txt_filament_id">Filament ID</label>
 		<br /><br />
 		
 		<input type="submit" value="Add to Database" />
