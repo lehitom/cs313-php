@@ -54,7 +54,7 @@ $filaments->execute();
 		<label for="txt_filament_cost">Filament Cost</label>
 		<br /><br />
 		
-		<input type="number" id="txt_filament_size" name="txt_filament_size"></input>
+		<input type="text" id="txt_filament_size" name="txt_filament_size"></input>
 		<label for="txt_filament_size">Filament Length</label>
 		<br /><br />
 		
