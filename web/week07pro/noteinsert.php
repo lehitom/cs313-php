@@ -4,7 +4,7 @@
 $print = $_POST['txtPrintId'];
 $note_fill = $_POST['txtContent'];
 
-require("dbConnect.php");
+require("connectDB.php");
 $db = get_db();
 
 try
