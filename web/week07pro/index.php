@@ -43,7 +43,23 @@ $notes->execute();
 
   <div class="row">
     
-    <div class="main">
+	<div class="main">
+      <h2>10 most recent notes</h2>
+        <table>
+          <?php
+            foreach( $notes as $note ) {
+              $note_id = $note['note_id'];
+              $note_fill = $note['note_fill'];
+              $print_id = $note['print_id'];
+          ?>
+        <p><?php echo "<b>" . $note_id . '</b> "' . $note_fill . '"<b> regarding: </b>' . $print_id; ?></p>
+        <?php
+      }
+    ?>
+        </table>
+	</div>
+	
+    <div class="side">
       <h2>10 most recent notes</h2>
         <table>
           <?php
