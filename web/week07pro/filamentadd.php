@@ -1,4 +1,4 @@
-<?php/*
+<?php
 session_start();
 if(isset($_SESSION['myusername']))
 {
@@ -8,7 +8,7 @@ else
 {
     header("Location: login.php");
 }
-*/
+
 require("connectDB.php");
 $db = get_db();
 
