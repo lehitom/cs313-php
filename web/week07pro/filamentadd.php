@@ -12,7 +12,7 @@ else
 require("connectDB.php");
 $db = get_db();
 
-$filaments = $db->prepare("SELECT * FROM filaments order by filament_id");
+$filaments = $db->prepare("SELECT * FROM filaments order by filament_id desc");
 $filaments->execute();
 ?>
 <!DOCTYPE html>
@@ -41,9 +41,38 @@ $filaments->execute();
   </div>
 
   <div class="row">
-    
+
 	<div class="main">
-  
+      <h1>New filament entry</h1>
+		<form id="mainForm" action="filamentinsert.php" method="POST">
+
+		<input type="text" id="txt_filament_name" name="txt_filament_name"></input>
+		<label for="txt_filament_name">Filament Name</label>
+		<br /><br />
+
+		<input type="text" id="txt_filament_cost" name="txt_filament_cost"></input>
+		<label for="txt_filament_cost">Filament Cost</label>
+		<br /><br />
+		
+		<input type="number" id="txt_filament_size" name="txt_filament_size"></input>
+		<label for="txt_filament_size">Filament Length</label>
+		<br /><br />
+		
+		<input type="text" id="txt_filament_diameter" name="txt_filament_diameter"></input>
+		<label for="txt_filament_diameter">Filament Diameter</label>
+		<br /><br />
+		
+		<input type="text" id="txt_filament_vendor" name="txt_filament_vendor"></input>
+		<label for="txt_filament_vendor">Filament Vendor</label>
+		<br /><br />
+		
+		<input type="text" id="txt_filament_color" name="txt_filament_color"></input>
+		<label for="txt_filament_color">Print ID</label>
+		<br /><br />
+		
+		<input type="submit" value="Add to Database" />
+
+		</form>
 	</div>
 	
     <div class="side">
