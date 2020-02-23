@@ -39,5 +39,10 @@ if(isset($_GET['answer']))
 	</form>
 	</div>
   </div>
+  <footer>
+    <div class="footer">
+      <h2>CS 313 - Shawn Porter - Thomas Wood - Web Engineering II</h2>
+    </div>
+  </footer>
 </body>
 </html>
