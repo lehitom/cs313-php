@@ -1,4 +1,4 @@
-<?php /*
+<?php
 session_start();
 if(isset($_SESSION['myusername']))
 {
@@ -7,7 +7,7 @@ if(isset($_SESSION['myusername']))
 else
 {
     header("Location: login.php");
-} */
+}
 
 require("connectDB.php");
 $db = get_db();
@@ -78,5 +78,11 @@ $prints->execute();
 	</div>
   </div>
 
+   <footer>
+    <div class="footer">
+      <h2>CS 313 - Shawn Porter - Thomas Wood - Web Engineering II</h2>
+    </div>
+  </footer>
+  
 </body>
 </html>
