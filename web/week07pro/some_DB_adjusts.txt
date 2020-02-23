@@ -1,0 +1,23 @@
+CREATE SEQUENCE notes_seq START WITH 6; 
+ALTER TABLE notes ALTER COLUMN note_id SET DEFAULT nextval('notes_seq');
+
+ALTER TABLE notes ADD CONSTRAINT note_id_uni UNIQUE (note_id);
+
+
+
+CREATE SEQUENCE fil_seq START WITH 2; 
+ALTER TABLE filaments ALTER COLUMN filament_id SET DEFAULT nextval('fil_seq');
+
+ALTER TABLE filaments ADD CONSTRAINT filament_id_uni UNIQUE (filament_id);
+
+
+
+CREATE SEQUENCE printer_seq START WITH 3; 
+ALTER TABLE printers ALTER COLUMN printer_id SET DEFAULT nextval('printer_seq');
+
+ALTER TABLE printers ADD CONSTRAINT printer_id_uni UNIQUE (printer_id);
+
+CREATE SEQUENCE print_seq START WITH 3; 
+ALTER TABLE prints ALTER COLUMN print_id SET DEFAULT nextval('print_seq');
+
+ALTER TABLE prints ADD CONSTRAINT print_id_uni UNIQUE (print_id);
