@@ -43,7 +43,7 @@ if(isset($_GET['answer']))
 <h1>User Creation</h1>
 <form method="post" action="<?php echo htmlspecialchars('newuser.php'); ?>">
     User:<br>
-    <input type="text" name="user" id="user"><br>
+    <input type="text" name="user" id="user"><br><br>
     Password:<br>
     <div class="required-field">
     <input type="password" name="password" id="password" onkeypress="submitCheck(this.value)">
