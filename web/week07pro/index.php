@@ -46,15 +46,15 @@ $notes->execute();
     <div class="main">
       <h2>Past 10 most recent notes</h2>
         <table>
-          <?php
+          <?php /*
             foreach( $notes as $note ) {
               $note_id = $note['note_id'];
               $note_fill = $note['note_fill'];
-              $print_id = $note['print_id'];
+              $print_id = $note['print_id'];*/
           ?>
-        <p><?php echo "Note: " . $note_id . ' "' . $note_fill . '"<b> for print: </b>' . $print_id; ?></p>
+        <p><?php /*echo "Note: " . $note_id . ' "' . $note_fill . '"<b> for print: </b>' . $print_id; */?></p>
         <?php
-      }
+      //}
     ?>
   </table>
 
