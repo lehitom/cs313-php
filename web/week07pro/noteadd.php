@@ -47,7 +47,7 @@ $prints->execute();
     
 	<div class="main">
       <h1>New note entry</h1>
-      <form id="mainForm" action="insertNote.php" method="POST">
+      <form id="mainForm" action="noteinsert.php" method="POST">
 
 	<input type="number" id="txtPrintId" name="txtPrintId"></input>
 	<label for="txtPrintId">Print ID</label>
