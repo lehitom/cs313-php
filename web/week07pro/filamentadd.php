@@ -1,4 +1,4 @@
-<?php
+<?php/*
 session_start();
 if(isset($_SESSION['myusername']))
 {
@@ -8,7 +8,7 @@ else
 {
     header("Location: login.php");
 }
-
+*/
 require("connectDB.php");
 $db = get_db();
 
@@ -59,8 +59,8 @@ $filaments->execute();
 			  $filament_vendor = $filament['filament_vendor'];
 			  $filament_color = $filament['filament_color'];
           ?>
-        <p><?php echo "<b>" . $filament_id . '</b> ' . $filament_vendor . ', $' . $filament_cost . ' for ' . $filament_size . ' grams '; ?></p>
-		<p><?php echo "<b>" . $filament_name . '</b> has a diameter of ' . $filament_diameter . ' and is <b>' . $filament_color; ?></p>
+        <p><?php echo '<b>' . $filament_id . '</b> ' . $filament_vendor . ', $' . $filament_cost . ' for ' . $filament_size . ' grams '; ?></p>
+		<p><?php echo '<b>"' . $filament_name . '"</b> has a diameter of ' . $filament_diameter . ' and is <b>' . $filament_color; ?></p>
         <?php
       }
     ?>
