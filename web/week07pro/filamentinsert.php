@@ -13,7 +13,7 @@ $db = get_db();
 
 try
 {
-	$query = 'INSERT INTO filaments(filament_id, filament_name, filament_cost, filament_size, filament_diameter, filament_vendor, filament_color) VALUES(nextval(fil_seq), :filament_name, :filament_cost, :filament_size, :filament_diameter, :filament_vendor, :filament_color)';
+	$query = 'INSERT INTO filaments(filament_name, filament_cost, filament_size, filament_diameter, filament_vendor, filament_color) VALUES(:filament_name, :filament_cost, :filament_size, :filament_diameter, :filament_vendor, :filament_color)';
 	$statement = $db->prepare($query);
 
 	$statement->bindValue(':filament_name', $filament_name);
