@@ -42,6 +42,7 @@ if(isset($_GET['answer']))
 <body>
 <h1>User Creation</h1>
 <form method="post" action="<?php echo htmlspecialchars('newuser.php'); ?>">
+    <h1>Please create a password with atleast one capital letter, lowercase letter, number, and special character</h1>
     User:<br>
     <input type="text" name="user" id="user"><br><br>
     Password:<br>
