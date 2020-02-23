@@ -44,13 +44,6 @@ $filaments->execute();
   </div>
 
   <div class="row">
-
-  $print_name = $_POST['txt_print_name'];
-$filament_amount = $_POST['txt_filament_amount'];
-$stl_file_name = $_POST['txt_stl_file_name'];
-$printer_id = $_POST['txt_printer_id'];
-$filament_id = $_POST['txt_filament_id'];
-  
 	<div class="main">
       <h1>New filament entry</h1>
 		<form id="mainForm" action="printinsert.php" method="POST">
