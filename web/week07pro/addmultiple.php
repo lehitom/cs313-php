@@ -56,7 +56,7 @@ $prints->execute();
       <a href="filamentadd.php">Add new Filament</a> <br><br>
 	  
 	  <h2>Printer addition</h2>
-      <a href="printadd.php">Add new Printer</a> <br><br> 
+      <a href="printeradd.php">Add new Printer</a> <br><br> 
 	</div>
 	
     <div class="side">

@@ -12,8 +12,8 @@ else
 require("connectDB.php");
 $db = get_db();
 
-$filaments = $db->prepare("SELECT printer_id, printer_name FROM printers order by printer_id desc");
-$filaments->execute();
+$printers = $db->prepare("SELECT printer_id, printer_name FROM printers order by printer_id desc");
+$printers->execute();
 ?>
 <!DOCTYPE html>
 <html>
@@ -56,7 +56,7 @@ $filaments->execute();
 	</div>
 	
     <div class="side">
-      <h2>All filaments</h2>
+      <h2>All printers</h2>
         <table>
 		  <?php
             foreach( $printers as $printer ) {
