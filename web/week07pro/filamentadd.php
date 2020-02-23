@@ -76,7 +76,7 @@ $filaments->execute();
 	</div>
 	
     <div class="side">
-      <h2>All current filaments</h2>
+      <h2>All filaments</h2>
         <table>
 		  <?php
             foreach( $filaments as $filament ) {
