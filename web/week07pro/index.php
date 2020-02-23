@@ -19,7 +19,7 @@ $notes->execute();
 <html>
 <head>
   <meta charset="utf-8">
-  <title><?php echo $username; ?>'s Home Page</title>
+  <title><?php /*echo $username; */?>'s Home Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="week02home.css" type="text/css">
   <meta name="description" content="3D note and database tracking">
