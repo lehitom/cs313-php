@@ -32,7 +32,7 @@ catch (Exception $ex)
 	die();
 }
 
-header("Location: notedump.php");
+header("Location: filamentadd.php");
 
 die(); 
 ?>
