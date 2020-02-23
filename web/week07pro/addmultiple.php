@@ -22,7 +22,7 @@ $prints->execute();
 <html>
 <head>
   <meta charset="utf-8">
-  <title><?php echo $username; ?>'s Home Page</title>
+  <title><?php echo $username; ?>'s Addition Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="week02home.css" type="text/css">
   <meta name="description" content="3D note and database tracking">
@@ -31,7 +31,7 @@ $prints->execute();
   <header>
     <div class="header-content">
       <div class="header-content-main">
-        <h1><?php echo $username; ?>'s Homepage</h1>
+        <h1>Additions</h1>
         <h2>3D printing print tracker</h2>
       </div>
     </div>
@@ -46,19 +46,17 @@ $prints->execute();
   <div class="row">
     
 	<div class="main">
-      <h2>10 most recent prints</h2>
-        <table>
-          <?php
-            foreach( $prints as $print ) {
-              $print_id = $print['print_id'];
-              $print_name = $print['print_name'];
-              $filament_amount = $print['filament_amount'];
-          ?>
-        <p><?php echo "<b>" . $print_id . '</b> "' . $print_name . '"<b> consumed: </b>' . $filament_amount . 'g.'; ?></p>
-        <?php
-      }
-    ?>
-        </table>
+      <h2>Print addition</h2>
+      <a href="printadd.php">Add new Print</a> <br><br>
+	  
+	  <h2>Note addition</h2>
+      <a href="noteadd.php">Add new Note</a> <br><br>
+	  
+	  <h2>Filament addition</h2>
+      <a href="filamentadd.php">Add new Filament</a> <br><br>
+	  
+	  <h2>Printer addition</h2>
+      <a href="printadd.php">Add new Printer</a> <br><br>
 	</div>
 	
     <div class="side">
