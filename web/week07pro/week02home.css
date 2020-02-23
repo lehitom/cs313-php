@@ -1,5 +1,5 @@
 body{
-  background-color: #66d6ff;
+  background-color: #32c5fa;
   background-size: cover;
   background-position: center;
   font-family: "Times New Roman";
@@ -87,7 +87,7 @@ header {
 
 .main {
   flex: 70%;
-  background-color: #DA654D;
+  background-color: #66d6ff;
   padding: 20px;
 }
 
