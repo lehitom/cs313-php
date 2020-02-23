@@ -21,7 +21,7 @@ if(isset($_GET['answer']))
 <header>
     <div class="header-content">
       <div class="header-content-main">
-        <h1>Login</h1>
+        
       </div>
     </div>
   </header>
@@ -29,6 +29,8 @@ if(isset($_GET['answer']))
   <div class="row">
     
 	<div class="main">
+	
+	<h1>Login</h1>
 <form method="post" action="<?php echo htmlspecialchars('verifyuser.php'); ?>">
     User:<br>
     <input type="text" name="user"><br>
