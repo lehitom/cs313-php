@@ -36,7 +36,8 @@ if(isset($_GET['answer']))
     <input type="password" name="password"><br>
 	<br>
 	<br>
-    <a href="signup.php"><b>Create an account</b></a><br>
+    <a href="signup.php"><b>Create an account</b></a>
+	<br><br>
     <input type="submit" value="LOGIN">
 	</form>
 	</div>
